@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   
 
+  get 'usuarios/new'
+
   root  'static_pages#inicio'
   get '/root_path', to: 'static_pages#inicio'
   get '/nosotros', to: 'static_pages#nosotros'
