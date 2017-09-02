@@ -50,5 +50,7 @@ test:
 production:
   <<: *default
   database: SmartToolsApp_production
-  username: SmartToolsApp
-  password: <%= ENV['SMARTTOOLSAPP_DATABASE_PASSWORD'] %>
+  username: SmartToolsUser
+  password: qazplm123
+  host: 192.168.17.129
+  #password: <%= ENV['SMARTTOOLSAPP_DATABASE_PASSWORD'] %>
